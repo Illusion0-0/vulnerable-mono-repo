@@ -1,0 +1,18 @@
+{
+  "name": "vulnerable-nodejs-service",
+  "version": "1.0.0",
+  "description": "Intentionally vulnerable Node.js app (hackathon demo target)",
+  "main": "index.js",
+  "dependencies": {
+    "lodash": "4.17.15",
+    "axios": "1.4.0",
+    "express": "4.17.1",
+    "minimatch": "3.0.2",
+    "handlebars": "4.7.6",
+    "qs": "6.5.1",
+    "moment": "2.29.1",
+    "ws": "8.10.0",
+    "jsonwebtoken": "8.5.1",
+    "node-forge": "1.2.1"
+  }
+}
