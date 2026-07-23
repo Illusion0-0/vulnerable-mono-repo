@@ -28,63 +28,63 @@
         <dependency>
             <groupId>org.apache.logging.log4j</groupId>
             <artifactId>log4j-core</artifactId>
-            <version>2.14.1</version>
+            <version>2.3.2</version>
         </dependency>
 
         <!-- CVE-2022-42889 Text4Shell (Critical) -->
         <dependency>
             <groupId>org.apache.commons</groupId>
             <artifactId>commons-text</artifactId>
-            <version>1.9</version>
+            <version>1.10.0</version>
         </dependency>
 
         <!-- CVE-2020-36518 / CVE-2022-42003 Jackson DoS (High) -->
         <dependency>
             <groupId>com.fasterxml.jackson.core</groupId>
             <artifactId>jackson-databind</artifactId>
-            <version>2.9.10.8</version>
+            <version>2.12.7.1</version>
         </dependency>
 
         <!-- CVE-2022-1471 SnakeYAML RCE (Critical) -->
         <dependency>
             <groupId>org.yaml</groupId>
             <artifactId>snakeyaml</artifactId>
-            <version>1.25</version>
+            <version>1.26</version>
         </dependency>
 
         <!-- CVE-2021-29425 commons-io path traversal (High) -->
         <dependency>
             <groupId>commons-io</groupId>
             <artifactId>commons-io</artifactId>
-            <version>2.6</version>
+            <version>2.7</version>
         </dependency>
 
         <!-- CVE-2020-10683 dom4j XXE (Critical) -->
         <dependency>
             <groupId>org.dom4j</groupId>
             <artifactId>dom4j</artifactId>
-            <version>1.6.1</version>
+            <version>2.0.3</version>
         </dependency>
 
         <!-- CVE-2020-8908 Guava temp dir (Medium) -->
         <dependency>
             <groupId>com.google.guava</groupId>
             <artifactId>guava</artifactId>
-            <version>28.0-jre</version>
+            <version>32.0.0-android</version>
         </dependency>
 
         <!-- CVE-2021-21351 XStream RCE (Critical) -->
         <dependency>
             <groupId>com.thoughtworks.xstream</groupId>
             <artifactId>xstream</artifactId>
-            <version>1.4.16</version>
+            <version>1.4.17</version>
         </dependency>
 
         <!-- CVE-2021-35515 commons-compress DoS (High) -->
         <dependency>
             <groupId>org.apache.commons</groupId>
             <artifactId>commons-compress</artifactId>
-            <version>1.20</version>
+            <version>1.21</version>
         </dependency>
 
         <!-- Spring Boot web starter (brings in spring-core managed by parent) -->
