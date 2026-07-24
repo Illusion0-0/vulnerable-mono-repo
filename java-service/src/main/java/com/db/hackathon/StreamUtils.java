@@ -21,10 +21,10 @@ public class StreamUtils {
      *
      * @return the number of bytes copied
      */
-    public int copyStream(InputStream input, OutputStream output) throws IOException {
+    public long copyStream(InputStream input, OutputStream output) throws IOException {
         // In Commons IO 2.6: returns int
         // In Commons IO 2.7+: returns long (BREAKING CHANGE - lossy conversion)
-        int bytesCopied = IOUtils.copy(input, output, 4096);
+        long bytesCopied = IOUtils.copy(input, output, 4096);
         return bytesCopied;
     }
 
